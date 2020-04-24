@@ -1,3 +1,9 @@
+Install TrackingSDK to see tracking to users of your iPhone app. The TrackingSDK is distributed via CocoaPods. This method is documented below:
+
+Pre Requisites :
+TrackingSdk supports iOS 9.0 and above
+Xcode 10.2 and  above
+
 Step 1: Clone or Download the SDK
 
 Step 2: Add TookanTracker.framework to your Project
@@ -5,6 +11,7 @@ Step 2: Add TookanTracker.framework to your Project
 Step 3: Select Target then your app. Under General tab go to Frameworks, libraries, and Embedded Content, then select TookanTracker.framework under Embed deselect Do Not Embed and select other option.
 
 Step 4: In you project info.plist file add following keys
+
 NSLocationAlwaysAndWhenInUseUsageDescription
 Privacy - Location When In Use Usage Description
 
@@ -25,3 +32,7 @@ By default path update timer is 1 minute.
  // use to create session.
 TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: "Provide Tookan Dashboard JOB ID", userId: "Provide Tookan Dashboard User ID")
 //use to fetch response from API.
+
+Step 6: Please add required fame work to your project
+
+Drag an drop required framework to you project  from folder.
