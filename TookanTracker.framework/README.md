@@ -37,6 +37,4 @@ By default path update timer is 1 minute.
 TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: "Provide Tookan Dashboard JOB ID", userId: "Provide Tookan Dashboard User ID")
 //use to fetch response from API.
 
-Step 3: Stop Tracking
-You can stop listening location using below method.
 
